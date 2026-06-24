@@ -23,7 +23,7 @@ export const ContractConfig: any = {
     name: 'go_plugin_contract',
     id: 1,
     version: 1,
-    supportedTransactions: ['send'],
+    supportedTransactions: ['create_log', 'like_log', 'give_reputation'],
     transactionTypeUrls: ['type.googleapis.com/types.MessageSend'],
     eventTypeUrls: [],
     fileDescriptorProtos
